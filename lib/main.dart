@@ -212,3 +212,22 @@ class _StepsScreenState extends State<StepsScreen> {
     );
   }
 }
+
+
+  // Future<void> testing(Map<String, String> payload) async {
+  //   const url = 'https://webhook.site/6d7d8f41-10a8-4f8b-ae3a-76b24b6f5d36';
+
+  //   try {
+  //     final response = await HttpService.post(
+  //       url,
+  //       data: payload,
+  //     );
+  //     if (kDebugMode) {
+  //       print('Webhook test response: \\${response.data}');
+  //     }
+  //   } catch (e) {
+  //     if (kDebugMode) {
+  //       print('Error sending test webhook: \\${e.toString()}');
+  //     }
+  //   }
+  // }
